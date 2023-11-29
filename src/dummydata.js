@@ -1,3 +1,11 @@
+import image from '../src/images/courses/c1.png';
+import image2 from '../src/images/back.webp'
+
+
+export const imagens = image;
+export const imagens2 = image2;
+
+
 export const homeAbout = [
   {
     id: 1,
@@ -44,7 +52,7 @@ export const awrapper = [
 export const coursesCard = [
   {
     id: 1,
-    cover: "../images/courses/c1.png",
+    cover: "../src/images/courses/c1.png",
     coursesName: "Introducing to Software Engineering",
     courTeacher: [
       {
@@ -58,7 +66,7 @@ export const coursesCard = [
   },
   {
     id: 2,
-    cover: "../images/courses/c2.png",
+    cover: "../src/images/courses/c2.png",
     coursesName: "Enhancing Adobe Photoshop CC 2020 Skills",
     courTeacher: [
       {
@@ -72,7 +80,7 @@ export const coursesCard = [
   },
   {
     id: 3,
-    cover: "../images/courses/c3.png",
+    cover: "../src/images/courses/c3.png",
     coursesName: "HTML, CSS, and Javascript for Web Developers",
     courTeacher: [
       {
@@ -86,7 +94,7 @@ export const coursesCard = [
   },
   {
     id: 4,
-    cover: "../images/courses/c4.png",
+    cover: "../src/images/courses/c4.png",
     coursesName: "Introducing to Programming with WordPress",
     courTeacher: [
       {
@@ -100,7 +108,7 @@ export const coursesCard = [
   },
   {
     id: 5,
-    cover: "../images/courses/c5.png",
+    cover: "../src/images/courses/c5.png",
     coursesName: "Introducing to Programming with ReactJS",
     courTeacher: [
       {
@@ -114,7 +122,7 @@ export const coursesCard = [
   },
   {
     id: 6,
-    cover: "../images/courses/c6.png",
+    cover: "../src/images/courses/c6.png",
     coursesName: "Learn Frontend Programming Language",
     courTeacher: [
       {
@@ -128,7 +136,7 @@ export const coursesCard = [
   },
   {
     id: 7,
-    cover: "../images/courses/c7.png",
+    cover: "../src/images/courses/c7.png",
     coursesName: "Introducing to with HTML / CSS",
     courTeacher: [
       {
@@ -142,7 +150,7 @@ export const coursesCard = [
   },
   {
     id: 8,
-    cover: "../images/courses/c8.png",
+    cover: "../src/images/courses/c8.png",
     coursesName: "Introducing to with JAVA",
     courTeacher: [
       {
@@ -156,7 +164,7 @@ export const coursesCard = [
   },
   {
     id: 9,
-    cover: "../images/courses/c9.png",
+    cover: "../src/images/courses/c9.png",
     coursesName: "Introducing to with HTML / CSS / JAVASCRIPT",
     courTeacher: [
       {
