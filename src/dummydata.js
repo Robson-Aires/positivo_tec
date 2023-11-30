@@ -1,9 +1,11 @@
 import image from '../src/images/courses/c1.png';
 import image2 from '../src/images/back.webp'
+import Team from '../src/images/back.webp'
 
 
 export const imagens = image;
 export const imagens2 = image2;
+export const teamm = Team;
 
 
 export const homeAbout = [
