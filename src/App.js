@@ -7,6 +7,7 @@ import About from './components/about/About'
 import CourseHome from './components/allcourses/CourseHome'
 import Team from './components/team/Team'
 import Price from './components/pricing/Price'
+import Blog from './components/blog/Blog'
 
 const App = () => {
   return (
@@ -19,6 +20,8 @@ const App = () => {
       <Route path='/Courses' exact component={CourseHome} />
       <Route path='/team' exact component={Team} />
       <Route path='/pricing' exact component={Price} />
+      <Route path='/journal' exact component={Blog} />
+
 
     </Switch>
   </Router>
