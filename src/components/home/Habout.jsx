@@ -3,6 +3,7 @@ import Title from '../common/title/Title'
 import { coursesCard } from '../../dummydata'
 import { imagens } from '../../dummydata'
 import { imagens2 } from '../../dummydata'
+import OnlineCourse from '../allcourses/OnlineCourse'
 
 const Habout = () => {
   return (
@@ -10,7 +11,7 @@ const Habout = () => {
     <section className="homeAbout">
         <div className="container">
             <Title subtitle='our courses' title='explore our popular online courses'/>
-        <section className="coursesCard">
+        <div className="coursesCard">
         <div className="grid2">
             {coursesCard.slice(0, 3).map((val) => {
                 return (
@@ -58,9 +59,10 @@ const Habout = () => {
                 </div>
             )})}
         </div>
+      </div>
+    </div>
     </section>
-        </div>
-    </section>
+<OnlineCourse />
     </>
   )
 }
