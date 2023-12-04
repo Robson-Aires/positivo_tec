@@ -1,8 +1,7 @@
-.hero {
-    background-image: url('https://scintillating-smakager-860376.netlify.app/static/media/bg.baa1024a4ae092566a75.webp');
+.hero-slide {
     background-size: cover;
     background-attachment: fixed;
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     z-index: -1;
@@ -10,29 +9,89 @@
     height: 100vh;
     padding-top: 20%;
     padding-right: 50px;
-    color: white;
+    color: #fff;
+  }
+  
+  /* .hero-slide-1 {
+    background-image: url('https://scintillating-smakager-860376.netlify.app/static/media/bg.baa1024a4ae092566a75.webp');
+    display: none;
+  } */
+
+  .hero-slide-1 {
+    background-image: url('https://www.positivotecnologia.com.br/wp-content/themes/positivo/images/home/Positivo-Tecnologia-VAIO-FH-mobile.png');
+    background-size: cover; 
+    background-position: center;
+    height: 100vh;
+    padding-top: -20%;
+    z-index: -1000;
+    top: 0;
+
+
+  }
+  .hero-slide-2 {
+    background-image: url('https://www.positivotecnologia.com.br/wp-content/themes/positivo/images/home/LA_Banner_Mobile.png');
+    background-size: cover; 
+    background-position: center; 
+    width: 50%;
+    height: 100vh;
+    padding-top: -20%;
+    z-index: -1000;
+    top: 0;
   }
 
-.hero #heading h3{
-   color: white; 
+  .hero-slide-3 {
+    background-image: url('https://www.positivotecnologia.com.br/wp-content/themes/positivo/images/home/PositivoTec-Infinixnote305g-768x520.png');
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100vh;
+    padding-top: -20%;
+    z-index: -1000;
+    top: 0;
   }
 
-.hero #heading{
+  .hero-slide-4 {
+    background-image: url('https://www.positivotecnologia.com.br/wp-content/themes/positivo/images/home/202305positec-Banner_Site_768x520px.jpg');
+    background-size: cover; 
+    background-position: center; 
+    width: 50%;
+    height: 100vh;
+    padding-top: -20%;
+    z-index: -1000;
+    top: 0;
+  }
+
+  .hero-slide-5 {
+    background-image: url('https://www.positivotecnologia.com.br/wp-content/themes/positivo/images/home/positivo_tecnologia-mobile.png');
+    background-size: cover; 
+    background-position: center; 
+    width: 50%;
+    height: 100vh;
+    padding-top: -20%;
+    z-index: -1000;
+    top: 0;
+  }
+
+  .hero-slide #heading h3 {
+    color: #fff;
+  }
+  .hero-slide #heading {
     text-align: left;
     margin: 0;
     padding: 0;
-}
-
-@media screen and (max-width:768px){
-    .marigin {
-        height: 40vh;
+  }
+  
+  @media screen and (max-width: 770px) {
+    .hero-slide-1 {
+      height: 0; /* Ou use opacity: 0; para tornar o slide invisível */
+      overflow: hidden; /* Garante que o conteúdo oculto não seja exibido */
     }
-    .hero {
-        background-position: right;
-        padding-top: 50%;
-        height: 80vh;
+    
+    .hero-slide {
+      padding-top: 20%;
+      height: 80vh;
     }
-    .hero .row {
-        width: 100%;
+    .hero-slide .row {
+      width: 100%;
     }
-}
+  }

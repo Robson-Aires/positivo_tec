@@ -7,7 +7,7 @@ import Faq from './Faq.jsx'
 const Price = () => {
   return (
     <>
-    <Back title='Choose the Right Plan '/>
+    <Back title='Vivência Cultural'/>
     <section className="price padding">
         <div className="container grid">
     <PriceCard />            

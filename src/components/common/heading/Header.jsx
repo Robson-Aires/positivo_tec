@@ -12,15 +12,22 @@ const Header = () => {
         <nav className='flexSB'>
           <ul className={click ? 'mobile-nav' : 'flexSB'} onClick={() => setClick(false)}>
             <li><Link to="/">Home</Link></li>
-            <li><Link to="/courses">All Courses</Link></li>
-            <li><Link to="/about">about</Link></li>
-            <li><Link to="/team">team</Link></li>
-            <li><Link to="/pricing">pricing</Link></li>
-            <li><Link to="/journal">journal</Link></li>
-            <li><Link to="/contact">contact</Link></li>
+            <li><Link to="/atitudes">Atitudes</Link></li>
+            <li><Link to="/about">Quem Somos</Link></li>
+            <li><Link to="/time">Time</Link></li>
+            <li><Link to="/cultura">Vivência Cultural</Link></li>
+            <li><Link to="/imprensa">Sala de Imprensa</Link></li>
+            <li><Link to="/contato">Contato</Link></li>
           </ul>
+          {/* <li><Link to="/">Home</Link></li>
+            <li><Link to="/courses">Atitudes</Link></li>
+            <li><Link to="/about">Quem Somos</Link></li>
+            <li><Link to="/team">Time</Link></li>
+            <li><Link to="/pricing">Vivência Cultural</Link></li>
+            <li><Link to="/journal">Sala de Imprensa</Link></li>
+            <li><Link to="/contact">Contato</Link></li> */}
           <div className="start">
-            <div className="button">GET CERTIFICATE</div>
+            <div className="button">POSITIVO</div>
           </div>
           <button className='toggle' onClick={() => setClick(!click)} >
                 {click ? <i className='fa fa-times'></i> : <i className='fa fa-bars'></i> }

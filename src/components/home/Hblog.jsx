@@ -8,10 +8,10 @@ const Hblog = () => {
     <>
         <section className="blog">
             <div className="container">
-                <Title subtitle='out blog' title='recent from blog' />
+                <Title subtitle='blog' title='Postagem recentes em nosso blog' />
                 <div className="grid2">
                 {blog.slice(0,3).map((val) =>(
-        <div className="items shadow">
+        <div className="items shadow" key={val.id}>
             <div className="img">
                  <img src={teamm} alt="" />
             </div>

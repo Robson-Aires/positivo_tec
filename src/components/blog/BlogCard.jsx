@@ -26,7 +26,9 @@ const BlogCard = () => {
                   <label htmlFor="">{val.com}</label>
                 </span>
               </div>
+              <a href={val.link}>
               <h1>{val.title}</h1>
+              </a>
               <p>{val.desc}</p>
            </div>
         </div>

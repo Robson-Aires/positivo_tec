@@ -1,0 +1,28 @@
+@media screen and (max-width: 376px) {
+    .back h1{
+        display: flex;
+        justify-content: center;
+        margin-left: 50px;
+        font-size: 70px;
+    }
+  }
+
+  @media screen and (max-width: 415px) {
+    .back h1{
+        display: flex;
+        justify-content: center;
+        margin-left: 50px;
+        font-size: 70px;
+    }
+  }
+
+  @media screen and (max-width: 431px) {
+    .back h1{
+        display: flex;
+        justify-content: center;
+        margin-left: 50px;
+        font-size: 70px;
+    }
+  }
+
+

@@ -1,41 +1,42 @@
-import React from 'react'
-import Title from '../common/title/Title'
-import {homeAbout} from '../../dummydata.js'
-import AWrapper from './AWrapper.jsx'
-import './about.css'
+import React from 'react';
+import Title from '../common/title/Title';
+import { homeAbout } from '../../dummydata.js';
+import AWrapper from './AWrapper.jsx';
+import './about.css';
+import video from './video/positivo.mp4'
 
 const AboutCard = () => {
   return (
     <>
-     <section className="aboutHome">
+      <section className="aboutHome">
         <div className="container flexSB">
-            <div className="left row">
-                <img
-                src="https://scintillating-smakager-860376.netlify.app/images/about.webp"
-                alt=""
-                />
-            </div>
-            <div className="right row">
-                <Title subtitle='LEARN ANYTHING' title='Benefits About Online Learning expertise' />
-                <div className="items">
-                    {homeAbout.map((val) => (
-                        <div className="item flexSB">
-                            <div className="img">
-                                <img src={val.cover} alt="" /> 
-                            </div>
-                            <div className="text">
-                                <h2>{val.title}</h2>
-                                <p>{val.desc}</p>
-                            </div>
-                        </div>
-                    ))}
+          <div className="left row">
+            <video width="100%" height="100%" controls>
+              <source src={video} type="video/mp4" />
+              Seu navegador não suporta o elemento de vídeo.
+            </video>
+          </div>
+          <div className="right row">
+            <Title subtitle="ESTA É A NOSSA ESSÊNCIA:" title="TECNOLOGIA PARA IMPULSIONAR VIDAS." />
+            <div className="items">
+              {homeAbout.map((val) => (
+                <div className="item flexSB" key={val.title}>
+                  <div className="img">
+                    <img src={val.cover} alt="" />
+                  </div>
+                  <div className="text">
+                    <h2>{val.title}</h2>
+                    <p>{val.desc}</p>
+                  </div>
                 </div>
+              ))}
             </div>
+          </div>
         </div>
-     </section>
-     <AWrapper />
+      </section>
+      <AWrapper />
     </>
-  )
-}
+  );
+};
 
-export default AboutCard
+export default AboutCard;

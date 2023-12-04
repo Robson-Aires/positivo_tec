@@ -59,7 +59,7 @@
 .coursesCard .details span{
     color: #1eb2a6;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 104px;
     
 }
 
@@ -133,3 +133,34 @@ padding: 10px;
 .online .box:hover h1{
     color: white;
 }
+
+@media screen and (max-width: 768px) {
+    .coursesCard{
+            margin-top: 60%;
+    }
+  }
+
+  @media screen and (max-width: 376px) {
+    .coursesCard .container{
+        margin-top: 20em;
+}
+  }
+
+  @media screen and (max-width: 415px) {
+    .coursesCard .container{
+        margin-top: 28em;
+}
+  }
+
+  @media screen and (max-width: 431px) {
+    .coursesCard .container{
+        margin-top: 23em;
+}
+    .coursesCard .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .content .box h1{
+        font-size: 15px;
+    }
+  }

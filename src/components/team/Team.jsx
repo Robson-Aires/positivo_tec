@@ -6,7 +6,7 @@ import TeamCard from './TeamCard'
 const team = () => {
   return (
     <>
-    <Back title='Team'/>
+    <Back title='Time'/>
     <section className="team padding">
       <div className="container grid">
         <TeamCard />

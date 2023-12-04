@@ -39,3 +39,19 @@
 .blog p{
     color: grey;
 }
+
+@media screen and (max-width:376px){
+    /* .container .items{
+        margin-top: 20em;
+    } */
+    .marigin{
+        margin-bottom: 26em;
+    }
+}
+
+
+@media screen and (max-width:391px){
+    .marigin{
+        margin-bottom: 14em;
+    }
+}

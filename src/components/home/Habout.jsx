@@ -2,15 +2,19 @@ import React from 'react'
 import Title from '../common/title/Title'
 import { coursesCard } from '../../dummydata'
 import { imagens } from '../../dummydata'
-import { imagens2 } from '../../dummydata'
+import { positivo2 } from '../../dummydata'
 import OnlineCourse from '../allcourses/OnlineCourse'
+import './res.css'
 
 const Habout = () => {
+    const handleSaibaMaisClick = () => {
+        window.location.href = '/courses';
+      };
   return (
     <>
     <section className="homeAbout">
         <div className="container">
-            <Title subtitle='our courses' title='explore our popular online courses'/>
+            <Title subtitle='POSITIVO TECNOLOGIA' title='SAIBA MAIS SOBRE AS NOSSAS ATITUDES'/>
         <div className="coursesCard">
         <div className="grid2">
             {coursesCard.slice(0, 3).map((val) => {
@@ -38,24 +42,24 @@ const Habout = () => {
                                     <>
                                     <div className="box">
                                         <div className="dimg">
-                                            <img src={imagens2} alt="" />
+                                            <img src={positivo2} alt="" />
                                         </div>
                                         <div className="para">
                                             <h4>{details.name}</h4>
                                         </div>
                                     </div>
-                                    <span>{details.totalTime}</span>
+                                    {/* <span>{details.totalTime}</span> */}
                                     </>
                                 ))}
                             </div>
                         </div>
                     </div>
                     <div className="price">
-                            <h3>
+                            {/* <h3>
                                 {val.priceAll} / {val.pricePer}
-                            </h3>
+                            </h3> */}
                     </div>
-                    <button className="outline-btn">enrol now</button>
+                    <button className="outline-btn" onClick={handleSaibaMaisClick}>SAIBA MAIS</button>
                 </div>
             )})}
         </div>

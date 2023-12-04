@@ -19,11 +19,11 @@ const App = () => {
     <Switch>
       <Route path='/' exact component={Home} />
       <Route path='/about' exact component={About} />
-      <Route path='/Courses' exact component={CourseHome} />
-      <Route path='/team' exact component={Team} />
-      <Route path='/pricing' exact component={Price} />
-      <Route path='/journal' exact component={Blog} />
-      <Route path='/contact' exact component={Contact} />
+      <Route path='/atitudes' exact component={CourseHome} />
+      <Route path='/time' exact component={Team} />
+      <Route path='/cultura' exact component={Price} />
+      <Route path='/imprensa' exact component={Blog} />
+      <Route path='/contato' exact component={Contact} />
     </Switch>
     <Footer />
   </Router>

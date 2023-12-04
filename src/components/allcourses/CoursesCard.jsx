@@ -1,7 +1,7 @@
 import React from 'react'
 import { coursesCard } from '../../dummydata'
 import { imagens } from '../../dummydata'
-import { imagens2 } from '../../dummydata'
+import { positivo2 } from '../../dummydata'
 import './course.css'
 
 
@@ -35,24 +35,26 @@ const CoursesCard = () => {
                                     <>
                                     <div className="box">
                                         <div className="dimg">
-                                            <img src={imagens2} alt="" />
+                                            <img src={positivo2} alt="" />
                                         </div>
                                         <div className="para">
                                             <h4>{details.name}</h4>
                                         </div>
                                     </div>
-                                    <span>{details.totalTime}</span>
+                                    {/* <span>{details.totalTime}</span> */}
                                     </>
                                 ))}
                             </div>
                         </div>
                     </div>
                     <div className="price">
-                            <h3>
+                            {/* <h3>
                                 {val.priceAll} / {val.pricePer}
-                            </h3>
+                            </h3> */}
                     </div>
-                    <button className="outline-btn">enrol now</button>
+                    <a href="https://www.positivotecnologia.com.br/nosso-jeito/">
+                        <button className="outline-btn">Saiba Mais</button>
+                    </a>
                 </div>
             )})}
         </div>

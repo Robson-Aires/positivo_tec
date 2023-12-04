@@ -10,10 +10,10 @@ const Test = () => {
     <>
     <section className="testimonal padding">
         <div className="container">
-            <Title subtitle='testimonal' title='our sucessful students' />
+            <Title subtitle='POSITIVO TECNOLOGIA' title='EU FAÇO PARTE DO #POSITIME' />
             <div className="content grid2">
                 {testimonal.map((val) => (
-                    <div className="items shadow">
+                    <div className="items shadow" key={val.name}>
                         <div className="box flex">
                             <div className="img">
                                 <img src={teamm} alt="" />

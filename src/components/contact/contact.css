@@ -59,3 +59,12 @@
         width: 100%;
     }
 }
+
+@media screen and (max-width:668px) {
+    .contact-input {
+        display: none;
+      }
+      .primary-btn{
+        display: none;
+      }
+}

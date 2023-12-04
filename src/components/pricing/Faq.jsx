@@ -15,7 +15,7 @@ const Faq = () => {
     }
   return (
     <>
-    <Title subtitle='FAQS' title='FREQUESNTLY ASK QUESTIONS' />
+    <Title subtitle='FAQS' title='VANTAGEM AO ME CONTRATAR' />
     <section className='faq'>
         <div className="container">
             {faq.map((val, index) =>(

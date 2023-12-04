@@ -77,7 +77,7 @@
 
 @media screen and (max-width: 768px) {
     .aboutHome{
-        margin-top: -20%;
+        margin-top: 60%;
     }
     .aboutHome .container {
         flex-direction: column-reverse;
@@ -85,7 +85,191 @@
     .aboutHome .row{
         width: 100%;
     }
+    .aboutHome .row iframe {
+        height: 400px;
+    }
     .awrapper{
-        height: 50vh;
+        height: 60vh;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .aboutHome{
+        margin-top: 80%;
+    }
+}
+
+@media screen and (max-width: 544px) {
+    .aboutHome{
+        margin-top: 80%;
+    }
+
+    .items .item {
+      display: flex;
+      flex-direction: column; /* Mudar a direção para coluna */
+    }
+    .aboutHome .row iframe {
+        height: 400px;
+        width: 400px;
+        margin-left: 15px;
+
+    }
+    .awrapper{
+        height: 100vh;
+    }
+
+    .awrapper .box{
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+
+    }
+}
+
+@media screen and (max-width: 431px) {
+    .aboutHome{
+        margin-top: 140%;
+    }
+    .aboutHome .row iframe {
+        height: 380px;
+        width: 380px;
+        margin-left: -07px;
+    }
+    .awrapper{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .aboutHome{
+        margin-top: 80%;
+    }
+    .aboutHome .row iframe {
+        height: 390px;
+        width: 390px;
+        margin-left: -18px;
+    }
+    
+    .awrapper .box{
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .aboutHome{
+        margin-top: 80%;
+    }
+    .awrapper{
+        width: 68vh;
+    }
+    .awrapper .box{
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width: 413px) {
+    .awrapper{
+        width: 45vh;
+    }
+    .aboutHome .row iframe {
+        height: 330px;
+        width: 330px;
+        margin-left: 13px;
+    }
+}
+
+@media screen and (max-width: 412px) {
+    .aboutHome{
+        margin-top: 110%;
+    }
+    .aboutHome .row iframe {
+        height: 400px;
+        width: 400px;
+    }
+    .items .item {
+        display: flex;
+        flex-direction: column; /* Mudar a direção para coluna */
+        width: 300px;
+        margin-left: -20px;
+    }
+    .awrapper .box{
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .aboutHome{
+        margin-top: 550px;
+    }
+
+    .items .item {
+        display: flex;
+        flex-direction: column; /* Mudar a direção para coluna */
+        width: 310px;
+        margin-left: -20px;
+    }
+    .awrapper{
+        display: none;
+    }
+    .aboutHome .row iframe {
+        height: 400px;
+        width: 400px;
+        margin-left: -25px;
+    }
+}
+
+@media screen and (max-width: 391px) {
+    .aboutHome{
+        margin-top: 550px;
+    }
+
+    .awrapper{
+        display: none;
+        width: 48vh;
+    }
+    .aboutHome .row iframe {
+        height: 360px;
+        width: 360px;
+        margin-left: -10px;
+    }
+}
+
+@media screen and (max-width: 361px) {
+    .aboutHome{
+        margin-top: 110%;
+    }
+    .aboutHome .row video {
+        height: 330px;
+        width: 330px;
+        margin-left: 29px;
+    }
+    .awrapper{
+        width: 50vh;
+    }
+    .row{
+        margin-left: -40px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .aboutHome{
+        margin-top: 25em;
+    }
+
+    .right {
+        margin-left: -35px;
+    }
+
+    .awrapper{
+        width: 56vh;
+    }
+    .aboutHome .row iframe {
+        height: 360px;
+        width: 360px;
+        margin-left: -20px;
+        margin-top: -50px;
     }
 }
