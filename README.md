@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# Boas-vindas ao repositório da positivo tecnologia!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<details>
+  <summary><strong>👨‍💻 O que eu desenvolvi</strong></summary>
+  <br />
+  Este projeto representa uma iniciativa para aprimorar o design do site principal da Positivo Tecnologia, utilizando a biblioteca React para criar uma experiência mais moderna e amigável para os usuários. O foco foi aprimorar a estética visual, a usabilidade e a responsividade do site.
+  <br />
 
-## Available Scripts
+  aqui o link do site principal todos os direitos são reservados a eles(https://www.positivotecnologia.com.br/)
+</details>
+<br />
 
-In the project directory, you can run:
+<details>
+  <summary><strong>Habilidades Adquiridas ao realizar este projeto</strong></summary><br />
 
-### `npm start`
+  Nesse projeto, eu fui capaz de:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  - Utilizar CSS e o CSS responsivo
+  - Utilizar reactjs
+  - Aprimoramento das minhas habilidades UX/UI
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+</details>
+<details>
+  <summary><strong>Objetivos</strong></summary><br />
+      Nesse projeto, os meus objetivos foram:
+    
 
-### `npm test`
+  - <strong>Melhoria no Design:</strong> Implementação de uma estética visual mais moderna, mantendo a identidade da Positivo Tecnologia e promovendo uma experiência de usuário mais agradável.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+  - <strong>Usabilidade Aprimorada:</strong> Reorganização de elementos de interface para melhorar a navegação e a compreensão do conteúdo, tornando o site mais intuitivo para os usuários.
+  - <strong>Design Responsivo:</strong> Adaptação do layout para garantir uma experiência consistente em uma variedade de dispositivos, incluindo desktops, tablets e smartphones.
+</details>
+<br />
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+link do projeto funcionando(https://positivo-tec.vercel.app/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
